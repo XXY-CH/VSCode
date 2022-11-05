@@ -1,9 +1,41 @@
 {
-  // 使用 IntelliSense 了解相关属性。 
-  // 悬停以查看现有属性的描述。
-  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
-  "version": "0.2.0",
-  "configurations": [
-    
-  ]
+    "version": "0.2.0",
+    "configurations": [
+        /*
+        {
+            "command": "swift run",
+            "name": "run swift",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug firstDemo",
+            "program": "${workspaceFolder:firstDemo}/.build/debug/firstDemo",
+            "args": [],
+            "cwd": "${workspaceFolder:firstDemo}",
+            "preLaunchTask": "swift: Build Debug firstDemo"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release firstDemo",
+            "program": "${workspaceFolder:firstDemo}/.build/release/firstDemo",
+            "args": [],
+            "cwd": "${workspaceFolder:firstDemo}",
+            "preLaunchTask": "swift: Build Release firstDemo"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Test firstDemo",
+            "program": "/Applications/Xcode.app/Contents/Developer/usr/bin/xctest",
+            "args": [
+                ".build/debug/firstDemoPackageTests.xctest"
+            ],
+            "cwd": "${workspaceFolder:firstDemo}",
+            "preLaunchTask": "swift: Build All"
+        }*/
+    ]
 }
