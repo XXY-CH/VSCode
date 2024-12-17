@@ -1,5 +1,6 @@
 package Java.pi;
 import java.util.Scanner;
+import java.math.*;
 
 public class pi {
     static Scanner sc = new Scanner(System.in);

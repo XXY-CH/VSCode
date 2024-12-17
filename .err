@@ -1,0 +1,9 @@
+t3.cpp:29:1: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+auto main() -> int {
+^
+t3.cpp:29:13: error: expected function body after function declarator
+auto main() -> int {
+            ^
+1 warning and 1 error generated.
+error: error reading './'
+1 error generated.

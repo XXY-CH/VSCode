@@ -1,12 +1,12 @@
-n = input()
+n = int(input())
 
-def dfs(step):
+def dfs(step) :
     if step < 1:
         return 1
     else:
         return dfs(step-1) + dfs(step/2)
 
-def ln(n):
+def ln(n) :
     if n < 0: 
         return 1
     else :
